@@ -1,0 +1,181 @@
+{
+  "memory_type": "skill_memory",
+  "description": "Skill memory test cases covering skills, abilities, and learning progress",
+  "test_cases": [
+    {
+      "id": "skill_001",
+      "content": "I am learning Python programming",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_002",
+      "content": "I can speak three languages fluently",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_003",
+      "content": "I'm skilled at playing the guitar",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_004",
+      "content": "I have experience in data analysis",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_005",
+      "content": "I'm capable of solving complex problems",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_006",
+      "content": "I know how to use various software tools",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_007",
+      "content": "I'm proficient in public speaking",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_008",
+      "content": "I have mastered the art of negotiation",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_009",
+      "content": "The weather is nice today",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "skill_010",
+      "content": "Python is a programming language",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "skill_011",
+      "content": "I can",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "skill_012",
+      "content": "I know",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "skill_013",
+      "content": "John knows how to code",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "skill_014",
+      "content": "Skills are important for career growth",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "skill_015",
+      "content": "I am learning Python and I want to master it",
+      "expected_types": ["skill_memory", "goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "skill_016",
+      "content": "I like playing the guitar and I'm good at it",
+      "expected_types": ["skill_memory", "preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "skill_017",
+      "content": "The skill was learned yesterday",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "skill_018",
+      "content": "I know that Python is popular",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "skill_019",
+      "content": "I'm experienced in machine learning techniques",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_020",
+      "content": "I have the ability to lead teams effectively",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_021",
+      "content": "私は日本語を話せます",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_022",
+      "content": "Je sais cuisiner",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_023",
+      "content": "我会开车",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_024",
+      "content": "Sé escribir código",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "skill_025",
+      "content": "I'm a coding wizard 🧙‍♂️",
+      "expected_types": ["skill_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}

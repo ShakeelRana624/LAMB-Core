@@ -1,0 +1,181 @@
+{
+  "memory_type": "episodic_memory",
+  "description": "Episodic memory test cases covering specific events, experiences, and time-bound occurrences",
+  "test_cases": [
+    {
+      "id": "episodic_001",
+      "content": "Yesterday, I went to the park with my friends",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_002",
+      "content": "Last week, I attended a conference in San Francisco",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_003",
+      "content": "This morning, I had coffee with my colleague",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_004",
+      "content": "Last year, I traveled to Japan for vacation",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_005",
+      "content": "Yesterday evening, I watched a movie at home",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_006",
+      "content": "Last month, I started a new job",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_007",
+      "content": "This afternoon, I had a meeting with my manager",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_008",
+      "content": "Last weekend, I went hiking in the mountains",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_009",
+      "content": "The weather is nice today",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "episodic_010",
+      "content": "Python is a programming language",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "episodic_011",
+      "content": "Yesterday",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "episodic_012",
+      "content": "Last week",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "episodic_013",
+      "content": "Yesterday was a good day",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "episodic_014",
+      "content": "Events happen every day",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "episodic_015",
+      "content": "Yesterday, I went to the park with my friend John",
+      "expected_types": ["episodic_memory", "relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "episodic_016",
+      "content": "Last week, I attended a conference and I enjoyed it",
+      "expected_types": ["episodic_memory", "preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "episodic_017",
+      "content": "The episode was broadcast yesterday",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "episodic_018",
+      "content": "Yesterday's news was important",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "episodic_019",
+      "content": "This morning, I experienced a technical issue",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_020",
+      "content": "Last night, I had a vivid dream",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_021",
+      "content": "昨日、友達と公園に行きました",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_022",
+      "content": "Hier, je suis allé au cinéma",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_023",
+      "content": "上周我去旅行了",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_024",
+      "content": "Ayer fui de compras",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "episodic_025",
+      "content": "Yesterday was amazing! 🎉",
+      "expected_types": ["episodic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}

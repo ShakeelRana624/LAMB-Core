@@ -1,0 +1,181 @@
+{
+  "memory_type": "temporal_memory",
+  "description": "Temporal memory test cases covering time-related information, schedules, and deadlines",
+  "test_cases": [
+    {
+      "id": "temporal_001",
+      "content": "The meeting is scheduled for tomorrow at 2pm",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_002",
+      "content": "The deadline is next Friday at 5pm",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_003",
+      "content": "I have an appointment on Monday morning",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_004",
+      "content": "The project starts in January and ends in June",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_005",
+      "content": "I need to finish this within 2 hours",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_006",
+      "content": "The event lasts for 3 days",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_007",
+      "content": "I'll be available from 9am to 5pm",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_008",
+      "content": "The schedule is updated for next week",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_009",
+      "content": "The weather is nice today",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "temporal_010",
+      "content": "Python is a programming language",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "temporal_011",
+      "content": "Tomorrow",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "temporal_012",
+      "content": "Next week",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "temporal_013",
+      "content": "Tomorrow is a holiday",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "temporal_014",
+      "content": "Time is relative",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "temporal_015",
+      "content": "The meeting is tomorrow at 2pm and I need to prepare",
+      "expected_types": ["temporal_memory", "task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "temporal_016",
+      "content": "I like morning meetings and I prefer early slots",
+      "expected_types": ["temporal_memory", "preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "temporal_017",
+      "content": "The deadline was yesterday",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "temporal_018",
+      "content": "I need time to complete the task",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "temporal_019",
+      "content": "The appointment is scheduled for next month",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_020",
+      "content": "I have 3 days to complete the assignment",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_021",
+      "content": "明日の会議は午後2時です",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_022",
+      "content": "Le rendez-vous est demain",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_023",
+      "content": "截止日期是下周五",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_024",
+      "content": "La cita es el lunes",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "temporal_025",
+      "content": "Meeting at 2pm tomorrow ⏰",
+      "expected_types": ["temporal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}

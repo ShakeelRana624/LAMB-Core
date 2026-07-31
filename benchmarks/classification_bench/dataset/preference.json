@@ -1,0 +1,181 @@
+{
+  "memory_type": "preference_memory",
+  "description": "Preference memory test cases covering likes, dislikes, and personal preferences",
+  "test_cases": [
+    {
+      "id": "preference_001",
+      "content": "I really like chocolate ice cream",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_002",
+      "content": "I hate waking up early in the morning",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_003",
+      "content": "My favorite color is blue",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_004",
+      "content": "I prefer working from home rather than the office",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_005",
+      "content": "I enjoy reading science fiction novels",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_006",
+      "content": "I love spending time outdoors in nature",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_007",
+      "content": "I can't stand people who are late",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_008",
+      "content": "My taste in music is mostly classical",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_009",
+      "content": "The weather is nice today",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "preference_010",
+      "content": "Python is a programming language",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "preference_011",
+      "content": "I like",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "preference_012",
+      "content": "My favorite is",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "preference_013",
+      "content": "John likes chocolate",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "preference_014",
+      "content": "Preferences vary from person to person",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "preference_015",
+      "content": "I like chocolate and I want to eat more of it",
+      "expected_types": ["preference_memory", "goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "preference_016",
+      "content": "I prefer working with my friend Mary",
+      "expected_types": ["preference_memory", "relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "preference_017",
+      "content": "The product has good features",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "preference_018",
+      "content": "I liked the movie yesterday",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "preference_019",
+      "content": "I would rather stay home than go out",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_020",
+      "content": "My choice is to take the scenic route",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_021",
+      "content": "私はチョコレートが好きです",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_022",
+      "content": "J'aime le café",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_023",
+      "content": "我喜欢红色",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_024",
+      "content": "Me gusta la música",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "preference_025",
+      "content": "I love pizza 🍕",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}

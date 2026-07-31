@@ -1,0 +1,181 @@
+{
+  "memory_type": "semantic_memory",
+  "description": "Semantic memory test cases covering general knowledge, facts, and declarative information",
+  "test_cases": [
+    {
+      "id": "semantic_001",
+      "content": "Water boils at 100 degrees Celsius at sea level",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_002",
+      "content": "The Earth orbits around the Sun",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_003",
+      "content": "Python is a high-level programming language",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_004",
+      "content": "The capital of France is Paris",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_005",
+      "content": "Photosynthesis is the process by which plants make food",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_006",
+      "content": "The human heart has four chambers",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_007",
+      "content": "Gravity is the force that attracts objects toward each other",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_008",
+      "content": "The speed of light is approximately 299,792 kilometers per second",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_009",
+      "content": "My name is John",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "semantic_010",
+      "content": "I want to achieve my goal",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "semantic_011",
+      "content": "The fact is",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "semantic_012",
+      "content": "Knowledge is",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "semantic_013",
+      "content": "John knows that water boils at 100 degrees",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "semantic_014",
+      "content": "Facts are important",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "semantic_015",
+      "content": "Water boils at 100 degrees and this is a scientific fact",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_016",
+      "content": "I like learning about science and facts",
+      "expected_types": ["preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "semantic_017",
+      "content": "The fact was discovered yesterday",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "semantic_018",
+      "content": "I know that I need to complete the task",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "semantic_019",
+      "content": "The concept of democracy originated in ancient Greece",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_020",
+      "content": "The theory of relativity was developed by Einstein",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_021",
+      "content": "水は100度で沸騰します",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_022",
+      "content": "La Terre tourne autour du Soleil",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_023",
+      "content": "地球绕太阳转",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_024",
+      "content": "El agua hierve a 100 grados",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "semantic_025",
+      "content": "The Earth is round 🌍",
+      "expected_types": ["semantic_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}

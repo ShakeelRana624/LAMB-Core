@@ -1,0 +1,181 @@
+{
+  "memory_type": "relationship_memory",
+  "description": "Relationship memory test cases covering social relationships and interpersonal connections",
+  "test_cases": [
+    {
+      "id": "relationship_001",
+      "content": "My friend John is coming to the meeting",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_002",
+      "content": "My mother called me yesterday to check on me",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_003",
+      "content": "I work with Sarah on the marketing project",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_004",
+      "content": "My brother is getting married next month",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_005",
+      "content": "My spouse and I are planning a vacation",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_006",
+      "content": "I'm part of the engineering team at my company",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_007",
+      "content": "My colleague Mike helped me with the presentation",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_008",
+      "content": "I have a close relationship with my sister",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_009",
+      "content": "The weather is nice today",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "relationship_010",
+      "content": "Python is a programming language",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "relationship_011",
+      "content": "My friend",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "relationship_012",
+      "content": "My colleague",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "relationship_013",
+      "content": "John has a friend named Mary",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "relationship_014",
+      "content": "Relationships are important for happiness",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "relationship_015",
+      "content": "My friend John and I are working on a project",
+      "expected_types": ["relationship_memory", "project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "relationship_016",
+      "content": "I like spending time with my family",
+      "expected_types": ["relationship_memory", "preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "relationship_017",
+      "content": "The team completed the project",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "relationship_018",
+      "content": "My friend is a concept in philosophy",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "relationship_019",
+      "content": "My associate from the law firm contacted me",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_020",
+      "content": "I'm acquainted with the CEO through networking",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_021",
+      "content": "私の友達はJohnです",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_022",
+      "content": "Mon ami Pierre",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_023",
+      "content": "我的同事是李明",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_024",
+      "content": "Mi hermana María",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "relationship_025",
+      "content": "My best friend is awesome 👫",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}

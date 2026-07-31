@@ -1,0 +1,181 @@
+{
+  "memory_type": "task_memory",
+  "description": "Task memory test cases covering tasks, to-dos, and action items",
+  "test_cases": [
+    {
+      "id": "task_001",
+      "content": "I need to complete the report by Friday",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_002",
+      "content": "I have to finish the presentation before the meeting",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_003",
+      "content": "My task is to review the code changes",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_004",
+      "content": "I must call the client tomorrow morning",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_005",
+      "content": "The todo list includes: buy groceries, pay bills, clean the house",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_006",
+      "content": "I need to schedule a dentist appointment",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_007",
+      "content": "My action item is to follow up with the sales team",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_008",
+      "content": "I have to submit the tax forms by the deadline",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_009",
+      "content": "The weather is nice today",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "task_010",
+      "content": "Python is a programming language",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "task_011",
+      "content": "I need to",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "task_012",
+      "content": "My task is",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "task_013",
+      "content": "The task was completed yesterday",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "task_014",
+      "content": "Tasks are important for productivity",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "task_015",
+      "content": "I need to complete the report by Friday and I want to do it well",
+      "expected_types": ["task_memory", "goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "task_016",
+      "content": "I like completing tasks and I enjoy being productive",
+      "expected_types": ["task_memory", "preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "task_017",
+      "content": "The task force was formed last year",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "task_018",
+      "content": "I need to know the answer",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "task_019",
+      "content": "My action item is to respond to the urgent email",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_020",
+      "content": "I must attend the mandatory training session",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_021",
+      "content": "レポートを完成させる必要があります",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_022",
+      "content": "Je dois finir le travail",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_023",
+      "content": "我需要完成任务",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_024",
+      "content": "Tengo que terminar la tarea",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "task_025",
+      "content": "I need to finish this ✅",
+      "expected_types": ["task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}

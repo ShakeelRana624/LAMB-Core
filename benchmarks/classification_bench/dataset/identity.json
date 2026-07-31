@@ -1,0 +1,181 @@
+{
+  "memory_type": "identity_memory",
+  "description": "Identity memory test cases covering personal identity information",
+  "test_cases": [
+    {
+      "id": "identity_001",
+      "content": "My name is John Smith and I am 30 years old",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_002",
+      "content": "I live in New York City and work as a software engineer",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_003",
+      "content": "My age is 25 and I was born in 1998",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_004",
+      "content": "I am called Michael and I'm from London",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_005",
+      "content": "My address is 123 Main Street, Springfield",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_006",
+      "content": "My phone number is 555-1234 and my email is john@example.com",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_007",
+      "content": "I am a tall person with brown hair and blue eyes",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_008",
+      "content": "My birthday is on July 15th and I'm a male",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_009",
+      "content": "The weather is nice today",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "identity_010",
+      "content": "Python is a programming language",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "identity_011",
+      "content": "I",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "identity_012",
+      "content": "My name is",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "identity_013",
+      "content": "Someone named John went to the store",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "identity_014",
+      "content": "The name John is very common",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "identity_015",
+      "content": "My name is John and I want to achieve my goal of learning Python",
+      "expected_types": ["identity_memory", "goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "identity_016",
+      "content": "I am 30 years old and I really like chocolate",
+      "expected_types": ["identity_memory", "preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "identity_017",
+      "content": "My friend Mary is 25 years old",
+      "expected_types": ["relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "identity_018",
+      "content": "John's name is written on the document",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "identity_019",
+      "content": "I reside in California and work at Google",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_020",
+      "content": "My occupation is data scientist and I'm 28",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_021",
+      "content": "私はJohnです",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_022",
+      "content": "Je m'appelle Pierre",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_023",
+      "content": "我叫李明",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_024",
+      "content": "Me llamo María",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "identity_025",
+      "content": "My name is John 😊",
+      "expected_types": ["identity_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}

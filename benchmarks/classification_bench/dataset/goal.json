@@ -1,0 +1,181 @@
+{
+  "memory_type": "goal_memory",
+  "description": "Goal memory test cases covering goals, objectives, and targets",
+  "test_cases": [
+    {
+      "id": "goal_001",
+      "content": "I want to achieve my goal of completing the project by Friday",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_002",
+      "content": "My objective is to learn Python within the next month",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_003",
+      "content": "I aim to lose 10 pounds by the end of the year",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_004",
+      "content": "I plan to finish my degree by next spring",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_005",
+      "content": "I intend to save $5000 for my vacation",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_006",
+      "content": "My target is to run a marathon in under 4 hours",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_007",
+      "content": "I need to accomplish this task by tomorrow",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_008",
+      "content": "I hope to get promoted to manager this year",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_009",
+      "content": "The weather is nice today",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "goal_010",
+      "content": "Water boils at 100 degrees Celsius",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "goal_011",
+      "content": "I want",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "goal_012",
+      "content": "My goal is",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "goal_013",
+      "content": "The goal of the project is to improve efficiency",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "goal_014",
+      "content": "Goals are important for success",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "goal_015",
+      "content": "I want to achieve my goal and I need to complete the task",
+      "expected_types": ["goal_memory", "task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "goal_016",
+      "content": "My objective is to learn Python and I really like programming",
+      "expected_types": ["goal_memory", "preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "goal_017",
+      "content": "John wants to buy a car",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "goal_018",
+      "content": "The goal was achieved yesterday",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "goal_019",
+      "content": "I aim to reach my target of 100 sales this quarter",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_020",
+      "content": "My purpose is to help others succeed",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_021",
+      "content": "私はPythonを学びたい",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_022",
+      "content": "Je veux apprendre l'anglais",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_023",
+      "content": "我想完成这个项目",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_024",
+      "content": "Quiero lograr mi meta",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "goal_025",
+      "content": "I want to achieve my goal 🎯",
+      "expected_types": ["goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}

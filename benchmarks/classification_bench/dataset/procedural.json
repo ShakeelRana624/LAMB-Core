@@ -1,0 +1,181 @@
+{
+  "memory_type": "procedural_memory",
+  "description": "Procedural memory test cases covering how-to information, procedures, and step-by-step processes",
+  "test_cases": [
+    {
+      "id": "procedural_001",
+      "content": "First, mix the ingredients. Second, bake at 350 degrees for 30 minutes.",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_002",
+      "content": "How to change a tire: First, loosen the lug nuts. Then, jack up the car.",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_003",
+      "content": "Step 1: Open the file. Step 2: Read the content. Step 3: Process the data.",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_004",
+      "content": "To install the software, download the installer, run it, and follow the prompts.",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_005",
+      "content": "The procedure involves three phases: planning, execution, and review.",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_006",
+      "content": "First, prepare the surface. Then, apply the primer. Finally, paint the wall.",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_007",
+      "content": "How do I reset my password? Go to settings, click security, and select reset.",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_008",
+      "content": "The workflow starts with data collection, followed by analysis, and ends with reporting.",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_009",
+      "content": "The weather is nice today",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "procedural_010",
+      "content": "Python is a programming language",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "procedural_011",
+      "content": "First",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "procedural_012",
+      "content": "Step 1",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "procedural_013",
+      "content": "The first step is important",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "procedural_014",
+      "content": "Procedures are documented in the manual",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "procedural_015",
+      "content": "First, mix ingredients. Then, bake. I need to complete this task.",
+      "expected_types": ["procedural_memory", "task_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "procedural_016",
+      "content": "I like following recipes and I enjoy cooking step by step",
+      "expected_types": ["procedural_memory", "preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "procedural_017",
+      "content": "The procedure was completed yesterday",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "procedural_018",
+      "content": "First in line gets served first",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "procedural_019",
+      "content": "The methodology includes data collection, analysis, and interpretation",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_020",
+      "content": "The sequence of operations is: initialize, process, finalize",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_021",
+      "content": "最初に、材料を混ぜます",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_022",
+      "content": "D'abord, préparez les ingrédients",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_023",
+      "content": "首先，打开文件",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_024",
+      "content": "Primero, mezcla los ingredientes",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "procedural_025",
+      "content": "Step 1: Mix 🥣 Step 2: Bake 🥧",
+      "expected_types": ["procedural_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}

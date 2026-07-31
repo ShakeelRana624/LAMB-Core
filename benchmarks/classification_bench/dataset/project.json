@@ -1,0 +1,181 @@
+{
+  "memory_type": "project_memory",
+  "description": "Project memory test cases covering projects, work assignments, and collaborative efforts",
+  "test_cases": [
+    {
+      "id": "project_001",
+      "content": "I am working on the database migration project",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_002",
+      "content": "The website redesign project is in progress",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_003",
+      "content": "I'm collaborating with the team on the AI initiative",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_004",
+      "content": "The mobile app project has been completed",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_005",
+      "content": "I'm part of the marketing campaign project",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_006",
+      "content": "The infrastructure upgrade project is on hold",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_007",
+      "content": "My team is working on the security audit project",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_008",
+      "content": "The data analytics project is scheduled for next quarter",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_009",
+      "content": "The weather is nice today",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "project_010",
+      "content": "Python is a programming language",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "project_011",
+      "content": "The project",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "project_012",
+      "content": "I am working on",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "project_013",
+      "content": "The project was completed last year",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "project_014",
+      "content": "Projects require careful planning",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "project_015",
+      "content": "I am working on the project with my friend John",
+      "expected_types": ["project_memory", "relationship_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "project_016",
+      "content": "The project goal is to complete by Friday",
+      "expected_types": ["project_memory", "goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "project_017",
+      "content": "The project management methodology is agile",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "project_018",
+      "content": "I project that sales will increase",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "project_019",
+      "content": "The initiative to improve customer service is ongoing",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_020",
+      "content": "I'm part of the program to modernize our systems",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_021",
+      "content": "私はプロジェクトに参加しています",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_022",
+      "content": "Je travaille sur le projet",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_023",
+      "content": "我在做这个项目",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_024",
+      "content": "Estoy colaborando en el proyecto",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "project_025",
+      "content": "The project is almost done 🎉",
+      "expected_types": ["project_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}

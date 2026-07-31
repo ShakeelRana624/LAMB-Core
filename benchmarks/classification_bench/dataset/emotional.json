@@ -1,0 +1,181 @@
+{
+  "memory_type": "emotional_memory",
+  "description": "Emotional memory test cases covering emotional experiences, mood states, and affective reactions",
+  "test_cases": [
+    {
+      "id": "emotional_001",
+      "content": "I feel very happy about the good news",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_002",
+      "content": "I'm feeling sad because of the bad news",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_003",
+      "content": "I feel angry about the unfair situation",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_004",
+      "content": "I'm excited about the upcoming event",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_005",
+      "content": "I feel anxious about the presentation tomorrow",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_006",
+      "content": "I love spending time with my family",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_007",
+      "content": "I hate waiting in long lines",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_008",
+      "content": "I feel proud of my accomplishments",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_009",
+      "content": "The weather is nice today",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "emotional_010",
+      "content": "Python is a programming language",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "emotional_011",
+      "content": "I feel",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "emotional_012",
+      "content": "I'm feeling",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "edge_case"
+    },
+    {
+      "id": "emotional_013",
+      "content": "John feels happy",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "emotional_014",
+      "content": "Emotions are complex",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "ambiguous"
+    },
+    {
+      "id": "emotional_015",
+      "content": "I feel happy about the news and I want to celebrate",
+      "expected_types": ["emotional_memory", "goal_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "emotional_016",
+      "content": "I love my family and I enjoy spending time with them",
+      "expected_types": ["emotional_memory", "preference_memory"],
+      "confidence_threshold": 0.5,
+      "category": "multi_label"
+    },
+    {
+      "id": "emotional_017",
+      "content": "The feeling was intense",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "emotional_018",
+      "content": "I feel that I need to complete the task",
+      "expected_types": [],
+      "confidence_threshold": 0.5,
+      "category": "negative"
+    },
+    {
+      "id": "emotional_019",
+      "content": "I'm experiencing a mix of emotions",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_020",
+      "content": "My mood is optimistic today",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_021",
+      "content": "私は幸せです",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_022",
+      "content": "Je suis triste",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_023",
+      "content": "我很生气",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_024",
+      "content": "Estoy emocionado",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    },
+    {
+      "id": "emotional_025",
+      "content": "I feel amazing! 😊",
+      "expected_types": ["emotional_memory"],
+      "confidence_threshold": 0.5,
+      "category": "positive"
+    }
+  ]
+}
