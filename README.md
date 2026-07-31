@@ -350,7 +350,7 @@ This project is licensed under the Apache License 2.0 — see LICENSE file for d
 
 - **Issues**: [GitHub Issues](https://github.com/ShakeelRana624/LAMB-Core/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/ShakeelRana624/LAMB-Core/discussions)
-- **Email**: support@lamb-cognitive.os
+- **Email**: shakeelrana6240@gmail.com
 
 ---
 
